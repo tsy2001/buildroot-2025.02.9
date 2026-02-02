@@ -1,0 +1,7 @@
+config BR2_PACKAGE_U8G2_CORE
+    bool "u8g2-core (libu8g2.so, without built-in fonts)"
+    help
+      Build U8g2 as a shared library, excluding the huge built-in font data.
+      You must provide upstream u8g2 sources under:
+        $(BR2_EXTERNAL_U8G2SPLIT_PATH)/package/u8g2-core/u8g2
+      The directory must contain csrc/ (u8g2 C sources).

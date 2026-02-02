@@ -1,0 +1,11 @@
+prefix=@PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/u8g2
+
+Name: u8g2font
+Description: Selected u8g2 font data as a shared library
+Version: @VERSION@
+Requires: u8g2
+Libs: -L${libdir} -lu8g2font
+Cflags: -I${includedir}

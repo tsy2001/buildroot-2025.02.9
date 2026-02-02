@@ -1,0 +1,2 @@
+name: U8G2SPLIT
+desc: Split u8g2 into core and fonts shared libs

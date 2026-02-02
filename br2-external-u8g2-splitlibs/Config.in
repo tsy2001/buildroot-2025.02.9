@@ -1,0 +1,4 @@
+menu "U8g2 split libraries"
+    source "$BR2_EXTERNAL_U8G2SPLIT_PATH/package/u8g2-core/Config.in"
+    source "$BR2_EXTERNAL_U8G2SPLIT_PATH/package/u8g2-fonts/Config.in"
+endmenu
